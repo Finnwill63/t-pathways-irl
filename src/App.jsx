@@ -279,10 +279,10 @@ function GdprGate({ onAccept }) {
         <div style={S.gdprProgramme}>Pathways Pre-Accelerator — Spring 2026</div>
         <div style={S.gdprSummary}>
           {[
-            ["🏛", "Data controller", "University of Helsinki"],
+            ["🏛", "Data controller", "William Cardwell"],
             ["📋", "What we collect", "Your team name, a short idea description, and your Innovation Readiness Level scores (start and target) across 6 dimensions. No personal names or contact details are collected."],
             ["🎯", "Why we collect it", "To support programme facilitation and educational research. Your profile helps facilitators tailor coaching and track progress across the programme."],
-            ["👥", "Who can see it", "Programme facilitators (Pathways team, Courage Ventures). Aggregated cohort averages — not individual scores — may be shown to all participants during a session."],
+            ["👥", "Who can see it", "Programme facilitators (Pathways team). Aggregated cohort averages — not individual scores — may be shown to all participants during a session."],
             ["⏱", "Retention", "For the duration of the programme and up to 2 years thereafter for research purposes."],
             ["⚖️", "Legal basis", "Legitimate interests of the University of Helsinki in educational research and programme improvement (GDPR Art. 6(1)(f))."],
           ].map(([icon, title, body]) => (
